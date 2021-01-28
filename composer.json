@@ -1,0 +1,20 @@
+{
+    "name": "lambda/krud",
+    "description": "Puzzle data crud",
+    "type": "module",
+    "license": "MIT",
+    "authors": [{
+        "name": "n0m4dz",
+        "email": "tseegii.it@gmail.com"
+    }],
+    "minimum-stability": "stable",
+    "laravel": {
+        "providers": [
+            "Lambda\\Krud\\KrudServiceProvider"
+        ],
+        "aliases": {
+            "Puzzle": "Lambda\\Krud\\Krud"
+        }
+    },
+    "require": {}
+}
