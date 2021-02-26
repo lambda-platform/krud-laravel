@@ -16,5 +16,10 @@
             "Puzzle": "Lambda\\Krud\\Krud"
         }
     },
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Lambda\\Krud\\": "src"
+        }
+    }
 }
