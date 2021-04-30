@@ -13,8 +13,13 @@
             "Lambda\\Krud\\KrudServiceProvider"
         ],
         "aliases": {
-            "Puzzle": "Lambda\\Krud\\Krud"
+            "Krud": "Lambda\\Krud\\Krud"
         }
     },
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Lambda\\Krud\\": "src"
+        }
+    }
 }
