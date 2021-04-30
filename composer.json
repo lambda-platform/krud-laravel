@@ -1,5 +1,5 @@
 {
-    "name": "lambda/krud",
+    "name": "lambda-platform/krud",
     "description": "Puzzle data crud",
     "type": "module",
     "license": "MIT",
